@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Zuikis from './Components/1uzd.jsx'
-import Props from './Components/2uzd';
-import ZebraiBebrai from './Components/3uzd';
-import Tekstas from './Components/4uzd';
-import PenktasUzd from './Components/5uzd';
+import Zuikis from './Components/React base/1uzd.jsx'
+import Props from './Components/React base/2uzd';
+import ZebraiBebrai from './Components/React base/3uzd';
+import Tekstas from './Components/React base/4uzd';
+import PenktasUzd from './Components/React base/5uzd';
 
 
 function App() {

@@ -1,6 +1,7 @@
 function ZebraiBebrai ({ number }) {
 
     if (number === '1') {
+        
     return (<div>
     <h1 style={{color: 'blue'}}>Zebrai ir Bebrai</h1>
     </div>

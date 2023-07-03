@@ -6,4 +6,4 @@ function PenktasUzd ({txt1, txt2, clr}) {
     );
 }
 
-export default PenktasUzd
+export default PenktasUzd;

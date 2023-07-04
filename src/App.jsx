@@ -4,6 +4,7 @@ import DogSquare from './Components/React-base-list/1uzdList';
 import DogArray from './Components/React-base-list/2uzdList.jsx'
 import EvenDogs from './Components/React-base-list/3uzdList';
 import Dogs4 from './Components/React-base-list/4uzdList';
+import Dogs5 from './Components/React-base-list/5uzdList';
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <EvenDogs dogs={dogs} />
     </div> */}
     <Dogs4 />
+    <Dogs5 />
        </header>
         </div>
   );

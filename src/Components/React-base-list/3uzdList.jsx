@@ -9,7 +9,7 @@ function EvenDogs ({dogs}) {
                     border: '1px solid green',
                     padding: '30px',
                     marginTop: '30px'
-                    }} key={index} className="square">
+                    }} key={index}>
                     {dog}
                   </div>
                 );
@@ -20,7 +20,7 @@ function EvenDogs ({dogs}) {
                     border: '1px solid red',
                     borderRadius: '50%',
                     marginTop: '30px',
-                  }} key={index} className="circle">
+                  }} key={index}>
                     {dog}
                   </div>
                 );

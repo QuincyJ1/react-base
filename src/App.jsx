@@ -1,12 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import DogSquare from './Components/React-base-list/1uzdList';
 import DogArray from './Components/React-base-list/2uzdList.jsx'
 import EvenDogs from './Components/React-base-list/3uzdList';
+import Dogs4 from './Components/React-base-list/4uzdList';
 
 
 
-const dogs = ['šuo', 'šunius', 'Bobikas', 'kudlius', 'Šarikas', 'avigalvis'];
+// const dogs = ['šuo', 'šunius', 'Bobikas', 'kudlius', 'Šarikas', 'avigalvis'];
 
 
 function App() {
@@ -21,9 +22,10 @@ function App() {
   {/* //   <div className="App">
   //     <DogArray dogs={dogs} />
     </div> */}
- <div className="App">
+ {/* <div className="App">
       <EvenDogs dogs={dogs} />
-    </div>
+    </div> */}
+    <Dogs4 />
        </header>
         </div>
   );

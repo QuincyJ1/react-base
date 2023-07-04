@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.sq-bin {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  .sq {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+  
+  }
+}

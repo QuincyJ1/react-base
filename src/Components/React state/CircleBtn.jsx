@@ -1,23 +1,18 @@
 import { useState } from 'react';
+import Random from './Random.jsx';
 
 function CircleBtn() {
-    const [circle, setCircle] = useState(false);
-    
+    const [sq, setSq] = useState(true);
 
-    const shape = () => {
-        setCircle(prevState => !prevState);
-      };
-     
-   
-      return (
-        <div>
-          <h1>{circle ? 'circle' : 'square'}</h1>
-          <div className={circle ? 'circle' : 'square'}></div>
-          <button className="red" onClick={shape}>
-            {circle ? 'Square' : 'Circle'}
-          </button>
-        </div>
-      );
+   const shape = () => {
+    setSq(!sq)
+   };
+     return (
+     <div>
+      <div className={sq ? 'square' : 'circle'} ></div>
+      <button className='red' onClick={shape}>Different shape</button>
+     </div>
+     )
       }
 
 export default CircleBtn;

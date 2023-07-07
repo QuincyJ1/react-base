@@ -7,7 +7,7 @@ import Dogs4 from './Components/React-base-list/4uzdList';
 import Dogs5 from './Components/React-base-list/5uzdList';
 import CircleBtn from './Components/React state/CircleBtn';
 import CircleBtn2 from './Components/React state/2uzdState';
-
+import PlusPlus from './Components/React state/3uzdState';
 
 
 
@@ -32,7 +32,7 @@ function App() {
     {/* <Dogs4 />
     <Dogs5 /> */}
   {/* <CircleBtn /> */}
-  <CircleBtn2 />
+ <PlusPlus />
        </header>
         </div>
   );
